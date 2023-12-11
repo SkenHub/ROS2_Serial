@@ -1,5 +1,5 @@
 # シリアル通信[PC<->Arduino UNO R4]
-
+codeの中にプログラム入れてます．
 serial.py
 
 ```py
