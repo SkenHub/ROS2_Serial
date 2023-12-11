@@ -63,3 +63,10 @@ void loop() {
 ```
 64まで確認済み
 UNO R4 minimaであればdelayなしで通信可能でした．
+# ROS2ノード
+serial_get_nodeはマイコンから受取，serial_send_nodeはマイコンに送信している．
+```
+ros2 run serial_pkg serial_get_node
+ros2 run serial_pkg serial_send_node
+```
+![Alt text](image.png)
